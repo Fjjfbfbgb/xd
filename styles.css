@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+.game-container {
+    position: relative;
+    text-align: center;
+}
+
+.mateusz-image {
+    width: 100px; /* dostosuj rozmiar do własnych preferencji */
+    height: 100px; /* dostosuj rozmiar do własnych preferencji */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.counter {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333;
+    font-size: 18px;
+}
